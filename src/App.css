@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  /* background-color:#3D195B; */
+  background: linear-gradient(90deg, rgba(0,255,133,1) 0%, rgba(56,0,60,1) 51%, rgba(0,0,0,1) 100%);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 45vh;
+  min-width: 100vh;
+  display: flex;
+  background-image: url('https://wallpapercave.com/wp/wp2022767.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+

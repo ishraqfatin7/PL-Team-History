@@ -1,0 +1,12 @@
+.card-container img{
+    border-radius: 10px;
+}
+.description{
+    color: antiquewhite;
+    font-size:18px;
+    letter-spacing:1px;
+    font-weight: regular;
+}
+.custom{
+    background-color: aquamarine;
+}
