@@ -16,7 +16,7 @@ const TeamDetail = () => {
             .then(response => response.json())
             .then(data => setTeamDetail(data.teams))
     }, [teamID])
-    const { strAlternate, strTeam, strStadium ,strDescriptionEN,strTeamFanart3,strTeamBanner, strTeamFanart2,strTwitter,strYoutube,strGender} = teamDetail[0] || {};
+    const { strAlternate, strTeam, strStadium ,strDescriptionEN,strTeamFanart3,strTeamFanart2,strTwitter,strYoutube,strGender} = teamDetail[0] || {};
     const youtubeUrl = `https://${strYoutube}`;
     const twitterUrl =`https://${strTwitter}`;
     
@@ -56,11 +56,11 @@ const TeamDetail = () => {
                     </div>
                     
                 </div>
-                <a href={twitterUrl} target="_blank" className=" bg-transparent border-success px-5"><FontAwesomeIcon icon={faTwitter} size="2x" />
+                <a href={twitterUrl} target="_blank" rel="noreferrer" className=" bg-transparent border-success px-5"><FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <a href={youtubeUrl} target="_blank" className=" bg-transparent border-success px-5"><FontAwesomeIcon icon={faYoutube} size="2x" />
+                <a href={youtubeUrl} target="_blank" rel="noreferrer" className=" bg-transparent border-success px-5"><FontAwesomeIcon icon={faYoutube} size="2x" />
                 </a>
-                <a href="#" className=" bg-transparent border-success px-5"><FontAwesomeIcon icon={faFacebook} size="2x" />
+                <a href="/" className=" bg-transparent border-success px-5"><FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
             </div>
         </div>
